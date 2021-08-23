@@ -8,8 +8,8 @@ int factorial(int n){
     //Check for negative numbers and getting a new number from user
     if(n<0){
         int newnum; 
-        cout<<"Negative numbers not allowed!!\n"; 
-        cout<<"Enter a positive numbers: ";
+        printf("%s","Negative numbers not allowed!!\n"); 
+        printf("%s","Enter a positive numbers: ");
         cin>>newnum; 
         return factorial(newnum); 
 
